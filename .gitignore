@@ -1,62 +1,38 @@
-HELP.md
-target/
+# Maven / Java build output
+/target/
+
+# Maven wrapper temp files
 .mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-# Java
-target/
-*.class
-*.jar
-*.war
-*.ear
-
-# Maven
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.utils
-release.properties
-
-# IDEs
-.idea/
-*.iml
-.classpath
-.project
-.settings/
-.vscode/
 
 # Logs
 *.log
 logs/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+
+# VS Code workspace files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Java
+*.class
+
+# Runtime files
+*.pid
+*.seed
+*.out
+*.err
+
+# Env files
+.env
+.env.*
+!.env.example

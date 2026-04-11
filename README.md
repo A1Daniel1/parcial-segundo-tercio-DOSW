@@ -1,2 +1,1 @@
-# parcial-segundo-tercio-DOSW
-parcial de segundo corte
+# DOSW_ParcialT2_DanielAhumada
